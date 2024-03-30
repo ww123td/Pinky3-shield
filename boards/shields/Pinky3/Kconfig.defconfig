@@ -1,5 +1,5 @@
 if pinky3_shield_left
-	config zmk_pinky3_left
+	config ZMK_KEYBOARD_NAME
 		default "Pinky3 wireless"
 	config ZMK_SPLIT_ROLE_CENTRAL
 		default y
