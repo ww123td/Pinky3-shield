@@ -1,0 +1,11 @@
+if pinky3_shield_left
+	config zmk_pinky3_left
+		default "Pinky3 wireless"
+	config ZMK_SPLIT_ROLE_CENTRAL
+		default y
+endif
+
+if pinky3_shield_left || pinky3_shield_right
+	config ZMK_SPLIT
+		default y
+endif
