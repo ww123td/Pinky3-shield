@@ -2,4 +2,4 @@ include:
   - board: nice_nano_v2
     shield: pinky3_left
   - board: nice_nano_v2
-    shield: pinky3_righti
+    shield: pinky3_right
