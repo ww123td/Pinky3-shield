@@ -9,7 +9,7 @@
 			compatible = "zmk, behavior-tap-dance";
 			#binding-cells = <0>;
 			tapping-term-ms = <200>;
-			bindings = <&kp RALT>, <&kp LANG_HANJA>;
+			bindings = <&kp RALT>, <&kp LANG_HANJA>, <&none>;
 		};
 	};
     
