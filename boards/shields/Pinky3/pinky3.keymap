@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/bt.h>
 
 / {
 	behaviors {
@@ -61,7 +62,7 @@
         };
 		MO3_layer{
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// |   `~    |  PROF1  |  PROF2  |  PROF3  |  PROF4  |  PROF5  |         |          |         |         |         |         |   [{    |   ]}    |   \|    |
+// |   `~    |  PROF1  |  PROF2  |  PROF3  |  PROF4  |  PROF5  | BT_CLR  |          |         |         |         |         |   [{    |   ]}    |   \|    |
 // |   TAB   |         |         |         |         |         |         |          |         |         |         |         |         |         |   DEL   |
 // |   LS(   |         |         |         |         |         |  MO(2)  |          |         |         |         |         |         |         |   RS)   |
 //                               | OPTION  |   CMD   | RETURN  |   CTL   |          |  MO(1)  |  SPACE  |  MO(3)  |TD(RALT,han)|
