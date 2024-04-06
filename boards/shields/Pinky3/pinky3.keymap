@@ -11,6 +11,7 @@
 			tapping-term-ms = <200>;
 			bindings = <&kp RALT>, <&kp LANG_HANJA>, <&none>;
 		};
+	};
     
 	keymap {
         compatible = "zmk,keymap";
