@@ -5,7 +5,7 @@
 };
 
 &kscan0 {
-    col-gpios // cols = {"B2", "B3", "B1", "F7", "F6", "F5", "F4" }
+    col-gpios // cols = {"B3", "B2", "B1", "F7", "F6", "F5", "F4" }
         = <&pro_micro 16 GPIO_ACTIVE_HIGH> // col1 in the schematic
         , <&pro_micro 14 GPIO_ACTIVE_HIGH> // col2 in the schematic
         , <&pro_micro 15 GPIO_ACTIVE_HIGH> // col3 in the schematic
