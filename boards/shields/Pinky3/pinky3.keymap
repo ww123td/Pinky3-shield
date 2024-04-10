@@ -23,7 +23,7 @@
 // |   ALT   |    Z    |    X    |    C    |    V    |    B    | LT(2,Y) |              |         |    N    |    M    |    ,    |    .    |    /    |    -    |
 //                               |  LGUI   |  SHIFT  |MT(CTRL,SPC)|  SPACE  |           |  MO(3)  |  ENTER  |LT(1,BS) |   ESC   |
             bindings = <
-    &kp TAB         &kp Q    &kp W    &kp E     &kp R     &kp T      &trans              &kp C_VOL_UP    &kp Y     &kp U     &kp I     &kp O     &kp P    &kp DEL
+    &kp TAB         &kp Q    &kp W    &kp E     &kp R     &kp T      &soft_off           &kp C_VOL_UP    &kp Y     &kp U     &kp I     &kp O     &kp P    &kp DEL
     &kp LSHFT       &kp A    &kp S    &kp D     &kp F     &kp G      &kp CAPS            &kp C_VOL_DN    &kp H     &kp J     &kp K     &kp L     &kp SEMI &kp SQT
     &kp LALT        &kp Z    &kp X    &kp C     &kp V     &kp B      &lt 2 Y             &kp C_PP        &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp MINUS
                                       &mo 3     &kp LSHFT  &mt LCTRL SPACE    &kp SPACE           &mo 3     &mt LGUI RET &lt 1 BSPC     &kp ESC
