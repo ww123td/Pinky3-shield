@@ -16,6 +16,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        hr_shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <17 18>;
+        };
+
+        hr_ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <16 17>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
