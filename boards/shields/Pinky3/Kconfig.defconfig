@@ -1,11 +1,18 @@
-if pinky3_shield_left
+if pinky3_shield_dongle
 	config ZMK_KEYBOARD_NAME
-		default "Pinky3 wireless"
-	config ZMK_SPLIT_ROLE_CENTRAL
+		default "Pinky3 Wireless Dongle"
+	
+	config ZMK_SPLIT_BLE_ROLE_CENTRAL
 		default y
+	
+	config ZMK_USB
+		default y
+
 endif
 
-if pinky3_shield_left || pinky3_shield_right
+if pinky3_shield_left || pinky3_shield_right || pinky3_shield_dongle
 	config ZMK_SPLIT
+		default y
+	config ZMK_BLE
 		default y
 endif
