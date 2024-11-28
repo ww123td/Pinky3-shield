@@ -1,6 +1,6 @@
 if pinky3_shield_dongle
 	config ZMK_KEYBOARD_NAME
-		default "Pinky3 Wireless Dongle"
+		default "Pinky3 W Dongle"
 	
 	config ZMK_SPLIT_BLE_ROLE_CENTRAL
 		default y
